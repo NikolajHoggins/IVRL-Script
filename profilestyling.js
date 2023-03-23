@@ -17,6 +17,6 @@ if (window.location.href === "https://ivrl.gg/vail/teams/crimson-claw") {
     const playerCountry = players[i];
     playerCountry.className = `fi`;
     playerCountry.innerText = `Crimson`; //Changes the text of the div element to Crimson.
-    playerCountry.style = `margin-left: -40px; color: red; font-size:20px; display: inline-block; width: auto`; //Changes the styling of the div element to the specified styling.
+    playerCountry.style = `color: red; font-size:20px; display: inline-block; width: auto`; //Changes the styling of the div element to the specified styling.
   }
 }
